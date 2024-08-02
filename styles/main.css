@@ -6,9 +6,31 @@
   background-color: white;
   border-bottom: 2px solid;
   color: #4f2902;
-  font-family: ;
+  font-family: Arial, serif;
 }
 
-.left-side{
+*{
+  box-sizing: border-box;
+}  
+
+.column {
+  flex: 50%
+  padding: 10px;
+  height: 350px;
+}
+
+.left-side {
   text-align: left;
+  background-color: ;
+  font-size: 25px;
+}
+
+.right-side {
+  text-align: left;
+  background-color: #fdbb2d;
+  font-size: 25px;
+}
+
+.row {
+  display: flex;
 }
