@@ -1,33 +1,54 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Paul's blog</title>
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <style>
-    
-
-    body{ 
-      background-color: #ffb56b
-      
+    * {
+      box-sizing: border-box;
     }
-  </style>  
+
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 50%;
+      padding: 10px;
+    }
+
+    body {
+      background-color: #fcc48c;
+      font-size: 25px;
+    }
+  </style>
   <body>
     <h1 class="heading">Kia ora Taiao! (Hello World!)</h1>
     <h1 class="heading"><strong>Bloggity Blog Blog</strong></h1>
 
-<div class="row">
-    <div class="column" style="background-color:#5b3e31">
-      <p>This is the beginning of my website home page.</p>
-      <p>It will eventually contain a list of links to all my blogs.</p>
-    </div>
+    <div class="row">
+      <div class="column" style="background-color: #98634b">
+        <p>This is the beginning of my website home page.</p>
+        <p>It will eventually contain a list of links to all my blogs.</p>
+      </div>
 
-    <div class="column" style="background-color:#fdbb2d;">
-      <p>Here are the blog things!</p>
-      <a href="te-houtaewa-template.html">Have a read about Te Houtaewa</a>
+      <div class="column" style="background-color: #fdbb2d">
+        <p>Here are the blog things!</p>
+        <li>
+          <a href="te-houtaewa-template.html">Have a read about Te Houtaewa</a>
+        </li>
+        <li>
+          <a>A bit about CSS classes and ids</a>
+        </li>
+        <br />
+        <img
+          class="small-pic"
+          src="https://i.seadn.io/gae/duUirjw3ZWB9g8PJcPSg3Ob2oujVTm7XufvyzkN7DXW10B2MmOIPDUlH0cHdRvEi8TU0VeezePLf-QfCuYNXvEQBGEymEvlhIFtwEw?auto=format&dpr=1&w=3840"
+        />
+      </div>
     </div>
-</div>
-
   </body>
 </html>

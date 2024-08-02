@@ -19,18 +19,6 @@
   height: 350px;
 }
 
-.left-side {
-  text-align: left;
-  background-color: ;
-  font-size: 25px;
-}
-
-.right-side {
-  text-align: left;
-  background-color: #fdbb2d;
-  font-size: 25px;
-}
-
-.row {
-  display: flex;
+.small-pic {
+  width: 200px;
 }
