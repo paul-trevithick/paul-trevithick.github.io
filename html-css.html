@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <head>
   <title>class vs ids</title>
+  <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
+<style>
+  body {
+    background-color: #fcc48c;
+    font-size: 25px;
+    margin: 20px;
+  }
 
+  .box {
+    border: 6px solid;
+    border-color: #f5da0d;
+    height: auto;
+    width: 90%;
+    float: none;
+    margin: auto;
+    background-color: rgba(79, 29, 29, 0.406);
+  }
+</style>
 <html>
-<h1>CSS: classes vs ids</h1>
+  <h1 class="heading">CSS: classes vs ids</h1>
 
+  <h3 style="text-align: center">
+    What are the best practices when using classes vs ids
+  </h3>
 
-
-
-
-
-
-
-
-
+  <div class="box">
+    <ul>
+      <li>
+        <p>
+          First, what are we talking about? Classes are essentially rules we
+          create that we can apply to style our web page. We can then apply
+          those classes over several different HTML elements and use them
+          repeatedly.
+        </p>
+      </li>
+      <li>
+        <p>
+          Ids are used on a specifically on a single element. Ids also have
+          priority over classes
+        </p>
+      </li>
+    </ul>
+  </div>
 </html>
