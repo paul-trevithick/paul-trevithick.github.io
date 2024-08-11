@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <title>Javascript and the DOM</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(173, 164, 164);
+      margin: 20px;
+    }
+  </style>
+  <body>
+    <h1 class="heading">All about javascript and the DOM</h1>
+    <h3 class="centre">
+      How to describe Javascript and its relationship with HTL and CSS?
+    </h3>
+    <p class="p">
+      HTML creates and structures the website's content, CSS adds style and
+      formatting to these structures, and then JavaScript turns those stylized
+      components into something that a user can interact with. A good way to
+      think of it is to compare the creation of a web site to building a house.
+      HTML is the blue print and structure, the walls , the foundation, the
+      rooms and what you want in them. CSS is the styling or interior
+      decoration. Paint colours, furniture style and placement, even the type of
+      art to put on the walls! JavaScript is how we interact with everything,
+      the light switches, heating and cooling and running the appliances.
+    </p>
+
+    <h3 class="centre">Control flow and Loops</h3>
+
+    <p class="p">
+      Control flow refers to the order in which statements or functions are
+      executed in a program. Loops are used to repeat a set of instructions
+      (code) until a certain parameter is met. An example of these in everyday
+      life could be baking a cake. You follow a recipe in order with sequential
+      steps: pre-heat the oven, prepare ingredients, mix ingredients, place mix
+      in dish, place dish in the oven, cook til done, remove from oven and let
+      cool.
+    </p>
+    <p class="p">
+      A conditional step would be whether you have all the ingredients available
+    </p>
+    <p class="p">
+      An example of a loop in this process would be checking the temperature or
+      how cooked the cake is periodically until the cake is cooked through.
+    </p>
+
+    <h3 class="centre">
+      Describe what the DOM is and an example of how you might interact with it.
+    </h3>
+
+    <p class="p">
+      The DOM stands for document object model. It is the data representation of
+      all the objects that make up the structure and content of w a web page.
+      While not a programming language itself it is a web API (Application
+      Programming Interfaceused) to build websites, it is platform an language
+      neutral. This means that the DOM allows us to dynamically manipulate the
+      style, content and structure of a document.
+    </p>
+    <p class="p">
+      The DOM represents the structure of a document as a tree of objects, where
+      each object corresponds to a part of the document, such as an element,
+      attribute, or text.
+    </p>
+    <img class="centre-img2" src="DOM-pic.png" alt="A DOM tree" />
+
+    <h4 class="centre">Example of the DOM tree</h4>
+
+    <p class="p">
+      We can make changes through the DOM and JavaScript to a website. Say for
+      example we notice a spelling mistake in some text.
+    </p>
+
+    <img class="centre-img2" src="exarmple.png" alt="A spelling mistake" />
+    <h4 class="centre">Some basic HTML</h4>
+
+    <p class="p">
+      We can access that line of code with javascript by referencing the Id of
+      that paragraph and inserting the correct text, for example:
+      <strong
+        >document.getElementById('test').innerHTML = "This is an
+        example"</strong
+      >
+    </p>
+    <p class="p">
+      We access the docment an addres a specific section by its ID (test), then
+      we can replace the text inside the 'p' tags with the command .innerHTML
+    </p>
+    <h3 class="centre">
+      The difference between accessing data from arrays and objects.
+    </h3>
+
+    <p class="p">
+      Arrays are ordered collections of elements of the same type e.g names
+      ['Mark', 'Juice', 'Freckle', 'Squirrly Dan'] or numbers ['34', '98', '3',
+      '55']. An item in an array is accessed by its index, which starts at 0. So
+      four items will be indexed as 0,1,2,3. The fourth item will be index
+      number 3, enjoy!
+    </p>
+    <p class="p">
+      Objects are collections of key-value pairs and are used when grouping
+      multiple sets of data that belong together
+    </p>
+
+    <img class="centre-img2" src="objects.png" alt="Simple object JS" />
+
+    <h4 class="centre">Object example</h4>
+
+    <p class="p">
+      In this example the key is the 'name' and the value is 'Sport'
+    </p>
+    <p class="p">
+      Objects are ideal for storing data with corresponding properties (keys),
+      someones personal details for example.
+    </p>
+    <p class="p">
+      In summary, arrays are great for ordered lists, while objects are perfect
+      for key-value pairs where you need to label each piece of data.
+    </p>
+
+    <h3 class="centre">What are functions and why they are helpful?</h3>
+    <p class="p">
+      A javascript function is a block of code designed to complete a particular
+      task when called (activated). This code is versatile and can be applied
+      over and over and used in other fuctions or assigned to other variables,
+      this allows for less complex code to be required.
+    </p>
+  </body>
+</html>
