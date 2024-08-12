@@ -1,7 +1,7 @@
 .heading {
   text-align:center;
-  font-size: 50px;
-  height: 70px;
+  font-size: 3.1vw;
+  height: flex;
   background-color: white;
   color: #4f2902;
   font-family: Arial, serif;
@@ -9,15 +9,20 @@
   border-width: 5px;
 }
 
+body {
+  background-color: #fcc48c;
+  font-size: 25px;
+  margin: 40px;
+}
 
 .column {
   flex: 50%
   padding: 10px;
-  height: 350px;
+  height: 100%;
 }
 
 .small-pic {
-  width: 200px;
+  width: 10vw;
   border-style: solid;
   border-width: 3px;
   border-radius: 30%;
@@ -28,6 +33,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2%;
+  border-color: black;
 }
 
 .centre{
@@ -35,7 +44,7 @@
 }
 
 .p{
-  font-size: 20px;
+  font-size: 2vw;
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
@@ -46,4 +55,23 @@
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2%;
+  border-color: black;
+}
+
+@media (max-width: 760px) {
+  .heading {
+    font-size: 4vw;
+    border-width: 1px;
+    color:rgb(255, 132, 0)
+  }
+}
+
+@media (max-width: 628px) {
+  body {
+    font-size: 2.5vw;
+  }
+
 }
