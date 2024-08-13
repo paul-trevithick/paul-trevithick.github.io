@@ -75,3 +75,9 @@ body {
   }
 
 }
+
+@media (max-width: 628px) {
+  body {
+    flex-wrap: wrap;
+  }
+}
